@@ -1,11 +1,14 @@
 n=int(input())
+m=int(input())
 A=[]
 for i in range(n):
     row=list(map(int,input().split()))
     A.append(row)
-k=A[0][0]
+s=[]
 for i in range(n):
-    for j in range(n):
-        if A[i][j]>k:
-            k=A[i][j]
-print(k)
+    f=A[i][0]
+    for j in range(m):
+        if A[i][j]>f:
+            f=A[i][j]
+    print(f"{i+1}-satrdagi eng katta elementi {f}")
+
