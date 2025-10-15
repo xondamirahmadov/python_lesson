@@ -1,12 +1,14 @@
 def Gauss_usuli(A):
     n = len(A)
-    f=1
+    f=1.0
+    sanagich=0
     # To‘g‘ri yurish
     for i in range(n):
         if A[i][i] == 0:
             for k in range(i+1, n):
                 if A[k][i] != 0:
                     A[i], A[k] = A[k], A[i]
+                    sanagich += 1
                     break
         # Diagonal elementni 1 ga keltirish
         D = A[i][i]
@@ -19,7 +21,7 @@ def Gauss_usuli(A):
             koef = A[k][i]
             for j in range(i, n):
                 A[k][j] -= koef * A[i][j]
-    return f
+    return f*(-1)**sanagich
 
 print("Gauss usuli yordamida determinantni topish")
 n = int(input("Matritsa o'lchami: "))
