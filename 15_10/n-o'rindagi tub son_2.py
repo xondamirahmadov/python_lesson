@@ -8,4 +8,6 @@ for i in range(3,n*n+1,2):
         T.append(i)
         if len(T)==n:
             break
-print(T[-1])
+x=T[-1]
+p=2**(x-1)*(2**x-1)
+print(p)

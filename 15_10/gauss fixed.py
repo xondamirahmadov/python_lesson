@@ -42,10 +42,10 @@ def Gauss_usuli(A, b):
 
     # Tahlil
     if rank_A < rank_Ab:
-        print("❌ Sistema yechimga ega emas (no solution).")
+        print("❌ Sistema yechimga ega emas.")
         return None
     elif rank_A < n:
-        print("♾ Sistema cheksiz ko‘p yechimga ega (infinite solutions).")
+        print("♾ Sistema cheksiz ko‘p yechimga ega.")
         return None
 
     # Teskari yurish (noma'lumlarni topish)
