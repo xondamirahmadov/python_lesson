@@ -1,6 +1,4 @@
 from copy import deepcopy
-
-
 def deter(A):
     n = len(A)
     f = 1.0
@@ -43,7 +41,7 @@ for i in range(n):
     b.append(row[n])
 dA = deter(A)
 if dA == 0:
-    print("Yechim yo‘q yoki cheksiz yechim bor.")
+    print("Yechim yo‘q yoki cheksiz ko'p yechim bor.")
 else:
     x = []
     for i in range(n):
