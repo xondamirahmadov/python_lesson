@@ -6,7 +6,7 @@ import array as ar
 # a.append(6)
 # print(a)
 # print(a.buffer_info())
-# print(a.count(3))
+# print(a.k(3))
 # a.extend([7, 8, 9])
 # print(a)
 # a = ar.array('h', [10, 25, 9600, 32767])
