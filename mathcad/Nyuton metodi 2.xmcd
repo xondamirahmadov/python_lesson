@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?validation-md5-digest 785cd56d09940e1aac5cf6a6d7af6341?>
+<?validation-md5-digest 928e9fc77e6fd8118460af1cfbddfc21?>
 <worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
 	<pointReleaseData/>
 	<metadata>
@@ -13,9 +13,9 @@
 			<revisedBy>Admin</revisedBy>
 		</userData>
 		<identityInfo>
-			<revision>1</revision>
+			<revision>2</revision>
 			<documentID>5E504781-8108-458D-AD8D-F000216329DC</documentID>
-			<versionID>B147BAD3-E14D-419D-91F5-1817FDA9B025</versionID>
+			<versionID>20F4304E-5A45-4722-8AA0-2E512FA913AD</versionID>
 			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
 			<branchID>00000000-0000-0000-0000-000000000000</branchID>
 		</identityInfo>
@@ -266,7 +266,7 @@
 				</element-image-map>
 			</rendering>
 		</region>
-		<region region-id="3" left="18" top="240.75" width="180.75" height="29.25" align-x="150" align-y="258" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="3" left="18" top="240.75" width="204.75" height="29.25" align-x="150" align-y="258" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:apply>
@@ -284,6 +284,11 @@
 						</ml:matrix>
 					</result>
 				</ml:eval>
+				<resultFormat numeric-only="true">
+					<general precision="8" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="8"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</resultFormat>
 			</math>
 			<rendering item-idref="6"/>
 		</region>
@@ -425,28 +430,33 @@ ZR+iKwSh7EN0hSCUfYiuEISyD9EVglD2IbpCEMo+RFcIQtmH6ApBKPsQXSEIZR+iKwSh7EN0
 hSCUfYiuEISyD9EVglD2IbpCikLFCSbP/lgAvAUIJWQpVJ8fC4D3AaGELIVyMAWyKRBKCELZ
 B6GEIJR9EErIUqjtHwuAzwOhhBRrKDAF0RWCUPYhukIQyj5EF6Abj8f/u1UCqT0nlYYAAAAA
 SUVORK5CYII=</item>
-		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAOMAAAAnCAYAAAD99//uAAAAAXNSR0IArs4c6QAAAARnQU1B
-AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ9SURBVHhe7Z39lasgEMVt4PWxNdjF
-a8I+tgOr8a/XicX45iIYQIiA5EO8v3NyNk5GVMYLA7hJtxBCvgKKkTTHPI3LOM16672cOTbF
-SJpiGoZlmPTGh5gnOYcxX5AUI2mGefy8EDdEkH2mIClG0gbzuPRPlDiP/dIdKDXko2xdp17+
-7kdlTkO/5OiRYiQNMC+jpKcxWWyCOhKr7wOB96OUrt93j2OklOnsnwDFSK4PbvqDLuioFwO+
-D7btcqehc7ZTyszpHSlGcnkgiqMbvlSM9naJGHPGjhQjuTiSovbxFNVQIkYIqbNS0yIxyt5D
-YqpKMZKLIzf7oSAKxShAgGYCp+vcHjhNjGmNBaAYybWR8WLKml6pGDfQS3qfpYkRu6aNGylG
-cm0Sx2SnxOilq4ZUMWL9k2Ik7SNCOdSDEpNONY2zWqqw1g5DPsYWGvOF/CNAtIfnKFCM5Nqk
-iPHDUIzkHjQnRt1l77pc257xJMFzpmVw8m9sB459QGq+rtiu48lAOuZD+0quXXBjlD7Fn0Wr
-PaOqPKlYd8d5GcdaVwvh2UHDtK/eVkHdBzSEOc80MVrHVMcITTPHfGgvs2MzECPPpwq/P8vP
-r37/pfz7+yfpHD0xjsukBqZ2hdUTI9ZsHP2o4OhgZuK2uk/A9Wx+EP/+gd+oD+1ldk0wRs4+
-FZDyahb3ClAPKee4F6P8VQudW0ohlazEiFYQ6QheWqxKTMaGlxGW8bWEBl87TfH3zazRVDH6
-fv5TFCDmQ3uZ3eB/vgLRljXAQVoXo1yhEtNasUaMeLsKyC54W0PxezlvOxgYf58MwoHeAz/7
-BvFvGBDzob3MbsDnoRjBLxy6tXd9NO7WKxbr9sUobMKzxCioCt56OBGtOUqCGO1AKSjGJu0G
-fB6Kkb/fKW4hRkFVpoild8aMa+uFwp0nC75UjAjWw+9x7g4xH9rL7JpYjIL3gmItgz2jsH9s
-R1eOXxKCgApypqrX1HZzVT6uGHflvEOM6rz0MXC84PR6zIf2MvtKLEboQZNCl0KLs6mooLUV
-0pW7IRWeWKGPMiBUaf3Ue2uyxwkWAvnwDwdn9dl9nYJpDPByPov449jK37o2bdtcQz6A9pVc
-ezRGaOA93zO02jOmIxU6uK1gCqUt4iTpc86xcv3JG4FIa6rn9mIsrgArrUkE30OZ8zWUuf7k
-jahetPKi/13FuKWhp64eaUrlgJALgIb4BXGvKkZ76FTvXF+cphLyJYgYay2TpP7fYS78f0Zy
-DyT1Lfn27j2PXrHaGqiG/+lPboKIqOagUc8O1xNk+rCMYiQX5xVzEDXHt1KWt/4ag2IklwcT
-JJUzS0ktK4kxY0xLMZLrg9Syqhrr9bb8RnFyMyqnqtVmaPPGsxQjaQMI6MxEjuwffnyvHP4K
-FbktWM+rObF6ChF37pILxUiagr9cTMgX8dHf9B/5m/6EXJxl+Q/RI2XEEeuIIAAAAABJRU5E
-rkJggg==</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAQEAAAAnCAYAAAAPbv1iAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVOSURBVHhe7Z3rlaMwDIXTwPYxNaSL
+bSJ9TAdUw6/thGJYXT/ANhbYDpnhcb9zciYIxRBkXWQ7yTxGQsitoQiQyzH03dj1g9u6B++8
+Z4oAuRT96zW+erdxM4Ze3ntXLwQUAXIZhu6+AjAhQvCsFAKKALkGQzc+VxRg6J7jY0Mhcj7G
+9niYR/rytTb7V+wftjMnaT++nC09Rt5ft4f0r+dYowMUAXIBhrGTYUA+HYPEURIWZH0gLM9O
+WnfPH/MxVts0vqEIINldYpp97nnfR+eMoYzdVvxVewL2+fMugCJAzg86fTYbZkzSrogASH2w
+HbaLu/virpxps+86EaVABEzCZhI8AkKWE5w08bfasdRUAxQBcnqQjFsdvlUEwu0iEcDknJji
+4YAk+NNVDdqYXRJ8ntTT/Ava8VTMDVAEyMlBYsxlukaLCCCRHsEQYFsE5Fw6u53OCYhF7tzK
+8EHApGacs5r/ejsz4lc4JKAIkJMjnX0zIRpFQEAy+4m4R1J+L0VDhgFufyoCNsndnXyRnGL3
+QwGH5r/eTgh8tsURUATIuYnKaJ1WEZhAVZDsS/1jwbAPUzlgLD8lrE3guKlEyDT/zXZiSucF
+KALk3BSOfd8SgWRY4FlrM6oEkLzRhF6SvNJ+tK35b7WTsBxi5KEIkHOTJlAOk8Tu7uydTUIF
+SZTz8bZc2Z3zD1gOB0QwnH8qWvPS4Izmv9ZOCnwzp7aAIkDOTYkI3BSKALkHFAGVOhFwpZEp
+M8JXhfbVmcgaMJYJyx87tlkcewNTFpX6T+9jZaJE86HdUmsX4hhJnHfrQwEUAZWmSsAETQIa
+v3CY1j7fBwkfdhbMcLpt05mWHSmHP88yEQiOaY6xHH/pPrS32bGZiVHiswvfX+PXt3tOIv79
+/VN0bRIR6MbeTHiEgdpPBNLJEtspXCeqJL7LrID3M/kpyyqaD+1tdkc2RtFrdkDa27O5K4Hr
+X3JtliIgf816Z7geaUQAqo+yDw8nEiaJvQ0Pn9DeN0hw+IblYPraykiWikDqh/eWzqpqPrS3
+2T3pfgvEok34s1AEVHD9S65NVgTkypoktgH1IoCnNnHDhqe1yPSunmxnO0T6mgryHWwJ/MKO
+mXZUoPnQ3mb3YH8uRvDLh85WE/NNJXhosaYIqOD6l1wbRQSEKeEDERBMYKc7uoiFP0qBCIQd
+xEARuKTdg/25GKWvewuKgAqu83siIJggSpI+ozkBq9ZoPPpE0kFFAJ1k9pvPPULzob3N7tBi
+lO0LBtsGK4F9wHUuuTaJCKQfM3RBSVtC8BGYaMnHDiEmV+MTi8CinZ8QAXNe7hg4XnaZSvOh
+vc1u0WKEiqEodCVwdUClenUAgbGq64I6IYEuDOTcBgRC1N48DyYRo06CDjT75zuF9Vn8bJQX
+ITyifYo/jm38g/fmbJNrzgfQbqm1qzHCjSXxfQdWAipNlUA5Esjkq48ltN4B8EstNceq9Sc/
+CMRhz6ylCKh8VgSaL3xQPhaC31Ov+Tn1Wn/yg5iqYecPC1EEVD4iAlO5/9ZVRzm4c0cgJwA3
+gA/E/TAiEA5vj9G/PzwcIOQgiAjsttz4BqXf3f9J+HsC5B7IEKPlv+7sy1wFHEGQPPxlIXIT
+JAGPMingVkqOIQTlw26KADk5R5tj+tDcRzVyHsnnNjQoAuT0YALsQFW4lOEHEIGKuRKKADk/
+KMMPowLHqEz4H4jIzTjQkOAQqxV18yQUAXINkHy/NUEox85/RPp34H8lJrcF6+JHWSj4NUSQ
+apdMKQLkUmBS7q5CMDQIAKAIkMuB7490N/sCCX4LpPU9UwQIuTXj+B/jIJzk/33ozQAAAABJ
+RU5ErkJggg==</item>
 	</binaryContent>
 </worksheet>
