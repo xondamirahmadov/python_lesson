@@ -1,0 +1,16 @@
+# iterativ (eng oddiy)
+def ekub(a: int, b: int) -> int:
+    a, b = abs(a), abs(b)
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+# rekursiv
+def ekub_rec(a: int, b: int) -> int:
+    a, b = abs(a), abs(b)
+    return a if b == 0 else ekub_rec(b, a % b)
+
+# Python standart kutubxonasi yordamida (eng qisqa)
+import math
+def ekub_math(a: int, b: int) -> int:
+    return math.gcd(a, b)
