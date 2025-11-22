@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?validation-md5-digest 1a4d0531209b72b09020d3cf2d02745c?>
+<?validation-md5-digest 5099c9c618697f4780e4089a81c926f4?>
 <worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
 	<pointReleaseData/>
 	<metadata>
@@ -10,12 +10,12 @@
 			<author>Amaliy matematika</author>
 			<company/>
 			<keywords/>
-			<revisedBy>Amaliy matematika</revisedBy>
+			<revisedBy>Admin</revisedBy>
 		</userData>
 		<identityInfo>
-			<revision>4</revision>
+			<revision>5</revision>
 			<documentID>45943243-356F-4F17-884B-F1A0E8049756</documentID>
-			<versionID>658761B3-8579-4252-874C-9923C1F709AD</versionID>
+			<versionID>945B3CDC-9C29-4382-879C-B455D07B3EFF</versionID>
 			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
 			<branchID>00000000-0000-0000-0000-000000000000</branchID>
 		</identityInfo>
@@ -312,7 +312,7 @@
 			</math>
 			<rendering item-idref="1"/>
 		</region>
-		<region region-id="96" left="6" top="18" width="405.75" height="255" align-x="104.25" align-y="30" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="130" left="18" top="24" width="405.75" height="255" align-x="116.25" align-y="36" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:function>
@@ -732,6 +732,14 @@
 			</math>
 			<rendering item-idref="9"/>
 		</region>
+		<region region-id="131" left="66" top="714" width="33.75" height="16.5" align-x="81" align-y="726" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math error="This placeholder is empty." optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:placeholder/>
+				</ml:eval>
+			</math>
+			<rendering item-idref="10"/>
+		</region>
 		<region region-id="113" left="114" top="744" width="72.75" height="16.5" align-x="147.75" align-y="756" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
@@ -744,7 +752,7 @@
 					</result>
 				</ml:eval>
 			</math>
-			<rendering item-idref="10"/>
+			<rendering item-idref="11"/>
 		</region>
 		<region region-id="114" left="264" top="774" width="152.25" height="16.5" align-x="377.25" align-y="786" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
@@ -762,7 +770,7 @@
 					</result>
 				</ml:eval>
 			</math>
-			<rendering item-idref="11"/>
+			<rendering item-idref="12"/>
 		</region>
 	</regions>
 	<binaryContent>
@@ -1410,7 +1418,11 @@ zgt+cykQUwAAHfCbiX9woCmcFvzmGiCmAAC6YDcTn/lQYtgf/OYKIKYAABZiZhOmMwkfs6GY
 x7IgAX5zXRBTAAAL8Qel+tOr9W+PBT98CjAFv7kuiCkAgKXIr9MPj7Xb4Cgn5bPlBbLgN5cF
 MQUAAADQAGIKAAAAoAHEFAAAAEADiCkAAACABhBTAAAAAKv5fv8DX18CorBUn4IAAAAASUVO
 RK5CYII=</item>
-		<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAAGEAAAAWCAYAAADQIfLaAAAAAXNSR0IArs4c6QAAAARnQU1B
+		<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAAC0AAAAWCAYAAABUpxX0AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVFhH7dKxCQAgDAXRzOVAzuM0
+LuMwsbG2EQ6C9yBdiit+ZEFGU4ymGE0xmvJv9OyREfdrY53vd86D4jwoRlOMphhNKRiduQG/
+RzMoC5E+swAAAABJRU5ErkJggg==</item>
+		<item item-id="11">iVBORw0KGgoAAAANSUhEUgAAAGEAAAAWCAYAAADQIfLaAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIKSURBVGhD7ZnrsYQgDIWpi4Koh2po
 hmK4CaCIhACyVxnHb8Yfu75ycpLIusJ9PM5nwgJ8JizAZ8IC/MQEa5RT2sZPbayG403/8W9n
 N8Eo4YTgN0kk2mrppDLuvMca7ZTczpWnpFunYR91vaWA4jrnALUcw+Z19pF3wuGmWYKsIZOG
@@ -1422,7 +1434,7 @@ bQLFoAlwQhRAzNROE24dRzWauhmdDNdMYBIXquEcaHzQUScMG3oDUZ+EJWgWFsYaR82wToa6
 CWxW6qujVLHp1yO+1pCVlcWSq6NDHjC2IAOfj0nDqE6O3QS63esX9MkjWwFaMlve0a81NvC+
 /z5GLoDvt44P40LDoE6OvBOGwPk3OUZ8249XztuYMAHw7Xd9lKzaBXczZwJwbabHtffgA+yt
 TJuAfP8nzPETEz5mcO4PfURhR8VouOcAAAAASUVORK5CYII=</item>
-		<item item-id="11">iVBORw0KGgoAAAANSUhEUgAAAMsAAAAWCAYAAABuW2jCAAAAAXNSR0IArs4c6QAAAARnQU1B
+		<item item-id="12">iVBORw0KGgoAAAANSUhEUgAAAMsAAAAWCAYAAABuW2jCAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARASURBVHhe7VvZkewgDJy4HBDxEI2T
 IRg/iVPisjwGr+cVXeWP8YFQSy2Bvfs5FhYWRFhiWVgQYollYUGIJZaFBSGWWABmV4fSxv9a
 CDAaeNkXLwFeLObQ2+f4fMixaThLAAnFrqvdX/htGL0dG/jyfUqYY4ek2nK+pmKcTbPrQ8XY
